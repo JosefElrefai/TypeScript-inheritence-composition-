@@ -20,7 +20,6 @@ var CsvFileReader_1 = __importDefault(require("./CsvFileReader"));
 var utils_1 = require("./utils");
 var CsvMatchReader = /** @class */ (function (_super) {
     __extends(CsvMatchReader, _super);
-    // data: MatchData;
     function CsvMatchReader(path) {
         var _this = _super.call(this) || this;
         _this.path = path;
